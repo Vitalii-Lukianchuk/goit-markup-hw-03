@@ -198,6 +198,7 @@ img {
 
 .advantages-list {
     display: flex;
+    padding: 120px 0;
     gap: 24px;
 }
 
@@ -210,6 +211,7 @@ img {
     line-height: 1.2;
     letter-spacing: 0.02em;
     margin-bottom: 8px;
+    width: calc((100% - 72px) / 4);
 }
 
 .advantages-text {
@@ -233,12 +235,13 @@ img {
     letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
+    margin-bottom: 72px;
 }
 
 .team-list {
     display: flex;
     padding-top: 232px;
-    padding-bottom: 120px;
+    padding: 120px 0;
     gap: 24px;
     justify-content: center;
 }
@@ -334,6 +337,10 @@ img {
     margin-bottom: 16px;
 }
 
+.foot-conteiner {
+    max-width: 264px;
+}
+
 .footer-color-studio {
     color: #f4f4fd;
 }
@@ -345,4 +352,5 @@ img {
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    max-width: 264px;
 }
