@@ -183,6 +183,11 @@ img {
 }
 
 /*----------------SECTIO---2------------*/
+
+.advantages {
+    padding: 120px 0;
+}
+
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -202,7 +207,9 @@ img {
     gap: 24px;
 }
 
-.text-cotn {}
+.advantages-item {
+    width: calc((100% - 72px) / 4)
+}
 
 .advantages-heading {
     color: #2E2F42;
@@ -225,6 +232,8 @@ img {
 /*---------------SECTIO---3-------------*/
 .team {
     background-color: #F4F4FD;
+    padding-top: 120px;
+    padding-bottom: 120px
 }
 
 .team-title {
@@ -236,12 +245,12 @@ img {
     text-align: center;
     text-transform: capitalize;
     margin-bottom: 72px;
+    margin-bottom: 8px;
 }
 
 .team-list {
     display: flex;
     padding-top: 232px;
-    padding: 120px 0;
     gap: 24px;
     justify-content: center;
 }
@@ -335,10 +344,6 @@ img {
     text-transform: uppercase;
     display: inline-block;
     margin-bottom: 16px;
-}
-
-.foot-conteiner {
-    max-width: 264px;
 }
 
 .footer-color-studio {
