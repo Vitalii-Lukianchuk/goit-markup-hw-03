@@ -203,7 +203,6 @@ img {
 
 .advantages-list {
     display: flex;
-    padding: 120px 0;
     gap: 24px;
 }
 
@@ -262,6 +261,7 @@ img {
 
 .name-clas {
     padding: 32px 0;
+    margin-bottom: 8px;
     text-align: center;
 }
 
