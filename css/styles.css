@@ -135,10 +135,9 @@ img {
 .main {
     background-color: #2E2F42;
     display: flex;
-    padding: 188px 0px 292px 0px;
-    height: 0 auto;
     justify-content: center;
     align-items: center;
+    padding: 188px 0;
 }
 
 .mai-container {
@@ -157,6 +156,7 @@ img {
     letter-spacing: 0.02em;
     text-align: center;
     margin: 0 auto;
+    max-width: 496px;
 }
 
 [type="button"] {
@@ -198,10 +198,10 @@ img {
 
 .advantages-list {
     display: flex;
-    padding: 120px 0;
     gap: 24px;
 }
 
+.text-cotn {}
 
 .advantages-heading {
     color: #2E2F42;
@@ -209,6 +209,7 @@ img {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
 }
 
 .advantages-text {
@@ -240,14 +241,19 @@ img {
     padding-bottom: 120px;
     gap: 24px;
     justify-content: center;
-
 }
 
 .team-item {
     background-color: #FFFFFF;
     text-align: center;
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
 }
 
+.name-clas {
+    padding: 32px 0;
+    text-align: center;
+}
 
 .team-name {
     color: #2E2F42;
@@ -255,6 +261,7 @@ img {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
 }
 
 .team-role {
@@ -273,12 +280,19 @@ img {
     letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
+    padding-top: 120px;
+    margin-bottom: 72px;
 }
 
 .portfolio-list {
     display: flex;
     flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+    margin-bottom: 72px;
 }
+
+
 
 .portfolio-name {
     color: #2E2F42;
@@ -286,6 +300,13 @@ img {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+}
+
+.name-app {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    margin-bottom: 8px;
 }
 
 .portfolio-category {
@@ -298,6 +319,7 @@ img {
 /*-----------------FOOTER-----------------*/
 .footer {
     background-color: #2E2F42;
+    padding: 100px 0;
 }
 
 .footer-link {
@@ -308,6 +330,8 @@ img {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .footer-color-studio {
