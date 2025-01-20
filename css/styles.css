@@ -233,7 +233,7 @@ img {
 .team {
     background-color: #F4F4FD;
     padding-top: 120px;
-    padding-bottom: 120px
+    padding-bottom: 120px;
 }
 
 .team-title {
@@ -245,12 +245,10 @@ img {
     text-align: center;
     text-transform: capitalize;
     margin-bottom: 72px;
-    margin-bottom: 8px;
 }
 
 .team-list {
     display: flex;
-    padding-top: 232px;
     gap: 24px;
     justify-content: center;
 }
